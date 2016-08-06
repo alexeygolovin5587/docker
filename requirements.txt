@@ -1,0 +1,4 @@
+Django==1.9.7
+djangorestframework
+ansible==1.9.4
+docker-py==1.8.1

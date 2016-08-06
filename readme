@@ -1,0 +1,14 @@
+- About the program
+
+You can implement simple terminal commands(like "echo ok", "touch new_file") using this program.
+
+- Run program
+
+$ sudo docker-compose up
+
+In web browser, run the following urls
+
+http://localhost:8000/api/sample/command?cmd=echo%20ok
+http://localhost:8000/api/sample/command?cmd=touch%20new_file (you can see the file named 'new_file' in project directory)
+
+- As you can see the above urls, you can send a command using cmd parameter.
